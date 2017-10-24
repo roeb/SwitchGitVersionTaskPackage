@@ -5,7 +5,11 @@ This console app is a workaround for the GitVersionTask dotnet core cli issue. I
 You need the following params to run the app:
 
 To uncomment the GitVersionTask entries use this:
+```
 SwitchGitVersionTaskPackage.exe enable [PATH_TO_YOUR_SLN_FILE_FOLDER]
+```
 
 To comment out all the GitVersionTask entries use this:
-SwitchGitVersionTaskPackage.exe enable [PATH_TO_YOUR_SLN_FILE_FOLDER]
+```
+SwitchGitVersionTaskPackage.exe disable [PATH_TO_YOUR_SLN_FILE_FOLDER]
+```
